@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Grid Layout Example</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: 100px 30% auto;
+        grid-template-rows: 200px 100px;
+        gap: 40px 5px;
+        background-color: grey;
+      }
+
+      .block {
+        border: 2px solid red;
+        background-color: pink;
+      }
+    </style>
+    <div class="container">
+      <div class="block block_size_big">1</div>
+      <div class="block">2</div>
+      <div class="block">3</div>
+      <div class="block">4</div>
+      <div class="block">5</div>
+      <div class="block">6</div>
+    </div>
+  </head>
+</html>
